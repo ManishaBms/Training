@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function check(str){
+            var upperCount = 0; 
+            var lowerCount = 0; 
+   
+            for(let i=0; i<str.length; i++){
+        
+                if(str[i] == str[i].toUpperCase()){
+                    upperCount++;
+                }    
+                if(str[i] == str[i].toLowerCase()){
+                    lowerCount++;
+                 }      
+             }
+        alert("Upper case characters  = " + upperCount);
+        alert("Lower case characters = " + lowerCount);
+   }
+
+    </script>
+</head>
+<body onload="check('AbCd')">
+    
+</body>
+</html>

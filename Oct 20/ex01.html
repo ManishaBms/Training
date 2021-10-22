@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function check(mychar){
+            //var lowerCase=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+            //var upperCase=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+            //alert("your input is "+mychar);
+            // for(i in lowerCase){
+            //     if(i===mychar){
+            //         return "Lowercase";
+            //     }else{
+            //         return "Uppercase";
+            //     }
+            // }
+            // if(mychar==mychar.toLowerCase()){
+            //     alert("lowercase");
+            // }else if(mychar==mychar.toUpperCase()){
+            //     alert("uppercase")
+            // }
+            if(mychar.match(/[A-Z]/)){
+                alert("Uppercase");
+            }else if(mychar.match(/[a-z]/)){
+                alert("lowercase");
+            }else if(mychar.match(/[0-9]/)){
+                alert("Number");
+            }else if(mychar.match(/[_@./#&+-]/)){
+                alert("Special characters");
+            }else{
+                alert("others")
+            }
+        }
+    </script>
+</head>
+<body onload="check('@')">
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // function check(){
+        //     var mychar=document.getElementById("abc").value;
+        //     mailFormat=/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+        //     if(mychar.match(mailFormat)===mychar){
+        //         alert("Valid email address");
+        //     }else if(mychar.match(mailFormat)!==mychar){
+        //         alert("Invalid email address");
+        //     }else if(/./.test(mychar)){
+        //         alert("It is a paragraph");
+        //     }else{
+        //         alert("It is a statement");
+        //     }
+        // }
+        function wordCount(){
+            var mychar=document.getElementById("abc").value;
+            var count=mychar.split(" ").length-1;//word count
+            //var fullStopCount=mychar.split(".").length-1;//full stop 
+            mailFormat=/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+            //alert("count="+count);
+            if(count>0 && count<=3){
+                alert("It is a sentence");
+            }else if(count>3){
+                alert("It is a paragraph");
+            }else if(mychar===mailFormat){
+                alert("Valid email address");
+            }else (count==0 && count!==mailFormat);{
+                alert("It is neither sentence nor paragraph nor email");
+            }
+    }
+        
+    </script>
+</head>
+<body>
+     <form name="form1">
+         <label>Enter your input:</label>
+         <input type="text" id="abc"/><br/><br/>
+         <button onclick="wordCount()">Check</button>
+     </form>
+</body>
+</html>
+
+
+
