@@ -1,0 +1,140 @@
+Folder PATH listing
+Volume serial number is 006E0069 B06A:F134
+C:.
+|   calculator.txt
+|   favicon.ico
+|   file_tree.log
+|   github.PNG
+|   New Text Document.txt
+|   README.md
+|   sessions-example.zip
+|   
++---favicons
+|       android-icon-144x144.png
+|       android-icon-192x192.png
+|       android-icon-36x36.png
+|       android-icon-48x48.png
+|       android-icon-72x72.png
+|       android-icon-96x96.png
+|       apple-icon-114x114.png
+|       apple-icon-120x120.png
+|       apple-icon-144x144.png
+|       apple-icon-152x152.png
+|       apple-icon-180x180.png
+|       apple-icon-57x57.png
+|       apple-icon-60x60.png
+|       apple-icon-72x72.png
+|       apple-icon-76x76.png
+|       apple-icon-precomposed.png
+|       apple-icon.png
+|       browserconfig.xml
+|       favicon-16x16.png
+|       favicon-32x32.png
+|       favicon-96x96.png
+|       favicon.ico
+|       manifest.json
+|       ms-icon-144x144.png
+|       ms-icon-150x150.png
+|       ms-icon-310x310.png
+|       ms-icon-70x70.png
+|       
++---learning
+|   |   index.html
+|   |   README.md
+|   |   
+|   \---js
+|           test.js
+|           
++---login
+|       login.js
+|       login1.html
+|       style.css
+|       
++---Oct 1
+|       demo.html
+|       p1.html
+|       p12.html
+|       p13.html
+|       p2.html
+|       p3.html
+|       p7.html
+|       p9.html
+|       test.html
+|       
++---Oct 11
+|       array1.js
+|       test.html
+|       
++---Oct 13
+|       destructuring.html
+|       
++---Oct 20
+|       ex01.html
+|       ex02.html
+|       image.png
+|       login.html
+|       login.js
+|       test.html
+|       test.js
+|       validate.html
+|       welcome.html
+|       
++---Oct 4
+|       app.js
+|       time.html
+|       web-file.txt
+|       
++---Oct 5
+|       cookies.html
+|       cookies.js
+|       get-cookies.html
+|       login.html
+|       set-cookies.html
+|       test.html
+|       
++---Sep 30
+|       ex01.html
+|       ex02.html
+|       ex03.html
+|       ex04.html
+|       game.html
+|       
++---Sessions
+|       cookies.js
+|       errors.html
+|       ex-page-auto-redirect.html
+|       ex-page-redirect.html
+|       ex-read-cookie.html
+|       ex-set-cookie-with-expire.html
+|       ex-set-cookie.html
+|       ex-unset-cookie.html
+|       index_.html
+|       login.html
+|       welcome-products.html
+|       welcome.html
+|       
++---sessions-example
+|   |   cookies.beautified.js
+|   |   cookies.js
+|   |   errors.html
+|   |   ex-page-auto-redirect.html
+|   |   ex-page-redirect.html
+|   |   ex-read-cookie.html
+|   |   ex-set-cookie-with-expire.html
+|   |   ex-set-cookie.html
+|   |   ex-unset-cookie.html
+|   |   index_.html
+|   |   login.html
+|   |   registration.html
+|   |   server-run.py.cmd
+|   |   server-run.py.log
+|   |   welcome-products.html
+|   |   welcome.html
+|   |   
+|   \---Oct 11
+|           array1.js
+|           
+\---Testing python
+        char_testing.py
+        test_functions.py
+        
